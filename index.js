@@ -17,12 +17,12 @@ function logWhisper(string){
 function sayHiToGrandma(string){
   const love = 'I love you, Grandma.';
   if(string === love){
-    return string;
+    return "I love you, too.";
   }else{
     if(string.toLowerCase() === string){
       return
     }else if(string.toUpperCase() === string){
-      return "YES INDEED!"
+      return "YES INDEED!";
     }
   }
 }
