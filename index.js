@@ -19,10 +19,10 @@ function sayHiToGrandma(string){
   if(string === love){
     return string;
   }else{
-    if(string){
-    return
-  }else{
-    return
-  }
+    if(string.toLowerCase() === string){
+      return
+    }else if(){
+      return
+    }
   }
 }
